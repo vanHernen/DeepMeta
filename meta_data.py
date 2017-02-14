@@ -195,10 +195,6 @@ class DeepMeta:
 
     def projFolderOpen(self):
         urlAdres = projectFolder
-#        urlAdres.replace(",","\,")
-#        subprocess.check_call(['explorer', projectFolder ])
-#        open(projectFolder)
-#        subprocess.call("explorer " + urlAdres, shell=True)
         self.dlg.opdrprojnr.setText(projectFolder)
 
     def select_input_file(self):
@@ -223,10 +219,6 @@ class DeepMeta:
         dirs.sort()
         self.dlg.fwfolder.addItems(dirs)
 
-
-
-
-
     def run(self):
         """Run method that performs all the real work"""
 #        button = self.dlg.findChild(QPushButton,"button")
@@ -238,7 +230,6 @@ class DeepMeta:
         self.dlg.opdrg.clear()
         self.dlg.button.clicked.connect(self.select_input_file)
         self.dlg.projnr.clicked.connect(self.projFolderOpen)
-
         self.dlg.show()
 
         # Run the dialog event loop
