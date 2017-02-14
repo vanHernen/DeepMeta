@@ -14,7 +14,7 @@ version=0.1
 author=JJ van Hernen - Deep BV
 email=jhe@deepbv.nl
 
-about=Deep plugin for generating meta-data forms, current release is version 0.1
+about=Deep plugin for generating meta-data forms, current release is version 0.1 beta
 
 tracker=https://github.com/vanHernen/MetaDataMaker/issues
 repository=https://github.com/vanHernen/MetaDataMaker
