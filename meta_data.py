@@ -140,7 +140,6 @@ class DeepMeta:
             added to self.actions list.
         :rtype: QAction
         """
-# added comment
         # Create the dialog (after translation) and keep reference
         self.dlg = DeepMetaDialog()
 
