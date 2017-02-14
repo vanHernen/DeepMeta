@@ -11,7 +11,7 @@ name=Deep Metadata Generator
 qgisMinimumVersion=2.0
 description=Deep plugin for generating meta-data forms
 version=0.1
-author=Deep BV
+author=JJ van Hernen - Deep BV
 email=jhe@deepbv.nl
 
 about=Deep plugin for generating meta-data forms, current release is version 0.1
